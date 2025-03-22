@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#input{
+    /* background-repeat: no-repeat;*/
+    background-size: cover;
+    background-image:url("https://t4.ftcdn.net/jpg/05/32/28/59/360_F_532285934_qyYCy5BpdBGaM1DpL1SvlcvftOMuppCC.jpg") ; 
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(45, 44, 44);
+
+
+}
+h1{
+    font-size: 4em;
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 180px;
+    height: 45px;
+    font-size: 2em;
+    padding: 0px 10px;
+}
+#button{
+    width: 120px;
+    height: 40px;
+    font-size: 1.4em;
+    background-color:burlywood;
+    color:darkcyan;
+
+
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color: rgb(58, 113, 161);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    text-align: center;
+    background-color: lavender;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color:rgb(58, 113, 161);
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: chocolate;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    color:rgb(58, 113, 161);
+    height: 20px;
+    width: 30px;
+    margin: 10px;
+    text-align: center;
+    background-color: olivedrab;
+}
+
+.traingle
+
+#box {
+    display: flex;
+}
